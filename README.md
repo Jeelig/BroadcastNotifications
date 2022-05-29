@@ -1,2 +1,2 @@
 # BroadcastNotifications
-Simplify notifications for Dynamics 365 Model Driven Apps
+Simplifies notifications for Dynamics 365 Model Driven Apps
