@@ -44,6 +44,7 @@ So you juste have to specify the message name and it will be sent to all targete
 
 Once you install the solution and create your target groups, you will be able to call the following action : BroadcastNotification.
 When this action is called, the notification is sent to all the users belonging to the target group.
+
 The action takes in two required parameters :
 - target_group : GUID or Name of the target group
 - body : Notification content
@@ -63,4 +64,21 @@ Other parameters are not mandaroty :
 
 ## Action : BroadcastMessage
 
+Imagine you know exactly the message you want to send to the users Or want to be able to change it without changing you code.
+With the BroadcastMessage, this is going to be possible.
+All you have to do, is to create a BroadcastMessage, give it a unique "name", and set the target group.
+The title and body of the notification are contained within the record. So that every time you send a BroadcastMessage, the notification is built from the record.
+In that way, you don't need to edit you code in case you want to change the message that is displayed to the users.
 
+The action takes in one required parameters :
+
+- MessageName
+
+
+## INSTALLATION
+
+In order to install in your environnement, please download the latest release.
+
+https://github.com/Jeelig/BroadcastNotifications/releases
+
+#Envoy
