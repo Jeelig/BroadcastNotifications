@@ -47,7 +47,9 @@ When this action is called, the notification is sent to all the users belonging 
 The action takes in two required parameters :
 - target_group : GUID or Name of the target group
 - body : Notification content
+
 Other parameters are not mandaroty :
+
 - id
 - entityName
 - viewId
