@@ -11,11 +11,15 @@ This solution adds something above the native feature, so that you can send noti
 ## Solution content
 
 This solution will add the following components in your environnement :
+
 3 tables
+
 - Target group
 - Target group item
 - Notification
+
 2 actions
+
 - BroadcastNotification
 - BroadcastMessage
 
