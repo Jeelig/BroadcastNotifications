@@ -79,6 +79,6 @@ The action takes in one required parameters :
 
 In order to install in your environnement, please download the latest release.
 
-https://github.com/Jeelig/BroadcastNotifications/releases
+<a hre="google.com">https://github.com/Jeelig/BroadcastNotifications/releases</a>
 
 #Envoy
