@@ -16,7 +16,7 @@ This solution will add the following components in your environnement :
 
 - Target group
 - Target group item
-- Notification
+- Broadcast Messages
 
 2 actions
 
@@ -25,3 +25,17 @@ This solution will add the following components in your environnement :
 
 In the sections below, we will describe the components listed above.
 
+## Target Group
+
+A tagert group, is a group of users. This group can be an team, a security group or a simple list of users. Depending on the field type.
+In the case of a list, the user will have the possibility to choose the users to be added into the list.
+
+## Target Group item
+
+A target group item is a user (systemuser) to be added to the targer group, in the case of a list.
+
+## Broadcast Message
+
+A Broadcast Message, is a predefined message, that can be sent to a target group.
+The broadcast messagehas this specificity that, the message is predefined and the targer is also predifined in to the record.
+So you juste have to specify the message name and it will be sent to all targeted users.
