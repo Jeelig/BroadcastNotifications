@@ -39,3 +39,26 @@ A target group item is a user (systemuser) to be added to the targer group, in t
 A Broadcast Message, is a predefined message, that can be sent to a target group.
 The broadcast messagehas this specificity that, the message is predefined and the targer is also predifined in to the record.
 So you juste have to specify the message name and it will be sent to all targeted users.
+
+## Action : BroadcastNotification
+
+Once you install the solution and create your target groups, you will be able to call the following action : BroadcastNotification.
+When this action is called, the notification is sent to all the users belonging to the target group.
+The action takes in two required parameters :
+- target_group : GUID or Name of the target group
+- body : Notification content
+Other parameters are not mandaroty :
+- id
+- entityName
+- viewId
+- title
+- body
+- icontype
+- data
+- priority
+- toasttype
+- ttlinseconds
+
+## Action : BroadcastMessage
+
+
